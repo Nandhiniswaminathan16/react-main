@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+.poster{
+  height: 300px;
+  width: 200px;
+  /* -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out; */
+}
+/* .poster:hover{
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+} */
+.imagebox{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.opinion{
+  display: flex;
+  padding: 10px;
+}
+.hits{
+  display: flex;
+}
+.App {
+  margin-top: 50px;
+ display: grid;
+ grid-gap:20px;
+ grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+ justify-items: center;
+ /* grid-template-columns: repeat(3,1fr);
+ justify-items: center; */
+}
+.movie-form{
+  margin:20px;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.movie-form input{
+  height: 1.5rem;
+  font-size: 20px;
+  padding-left: 5px;
+}
+.movie-form button{
+  height: 2.5rem;
+ margin-top: 10px;
+ 
+}
+.card{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.card h1{
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+}
+.card p{
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}
+.MuiBadge-root{
+  padding: 4px;
+}
+.btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.titlebar{
+  height: 35px;
+}
+
+.info-container{
+  height: 80vh;
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 50px;
+  align-items: center;
+}
+
+.trailer iframe{
+  padding: 0 20px;
+  width: 100%;
+  height: 500px;
+}
+.highlight{
+  font-weight: bold;
+}
+.movie-info{
+  padding: 0 25px;
+}
+.movie-info h1{
+  padding-bottom: 10px;
+  padding-left: 5px;
+}
+.movie-info p{
+  padding-left: 5px;
+}
+.story{
+  padding: 20px 0;
+}
+.creator{
+  display: flex;
+  padding-bottom: 15px;
+  flex-direction: column;
+  gap: 10px;
+}
+.menu-bar{
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+}
+.menu-bar a{
+  text-decoration: none;
+  color: #fff;
+}
+.cover {
+  height: 30vh;
+  background: url(/src/bg1.png);
+}
+.homepage{
+  height: 63.2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.homepage input{
+  display: block;
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+.homepage button{
+  padding: 10px;
+  margin: 25px 0;
+  width: 250px;
+}
+.homepage h2{
+  padding: 10px;
+}
+
+.logincard{
+ 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height:350px
+}
+.mainform{
+  display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
